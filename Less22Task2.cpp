@@ -30,7 +30,7 @@ int main() {
                 for (std::map<std::string, std::string>::iterator it = queue.begin(); it != queue.end(); it++) {
                     std::cout << it->second << std::endl;
                 }
-                std::cout << "---start queue---" << std::endl;
+                std::cout << "---end queue---" << std::endl;
             }
         }
         else {                                      // добавление в очередь
