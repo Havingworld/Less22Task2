@@ -27,7 +27,7 @@ int main() {
                 std::cout << "The queue is empty" << std::endl;
             } else {
                 std::cout << "---start queue---" << std::endl;
-                for (std::map<std::string, std::string>::iterator it = queue.begin(); it != queue.end(); it++) {
+                for (auto it = queue.begin(); it != queue.end(); it++) {
                     std::cout << it->second << std::endl;
                 }
                 std::cout << "---end queue---" << std::endl;
