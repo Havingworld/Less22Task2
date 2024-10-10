@@ -10,7 +10,7 @@ int main() {
     std::cout << "Queue - showe the queue" << std::endl;
     std::cout << "Quit - close the programm" << std::endl;
 
-    for (int i{ 0 }; cInpt != "Quit" || "quit"; i++) {
+    for (int i{ 0 }; cInpt != "Quit" || cInpt != "quit"; i++) {
         std::cin >> cInpt;
         if (cInpt == "Quit" || cInpt == "quit") break;
         if (cInpt == "Next" || cInpt == "next") { // удаление из очереди
